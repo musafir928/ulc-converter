@@ -1,0 +1,11 @@
+{
+  "name": "ulc-converter",
+  "version": "1.0.0",
+  "description": "Uyghur yeziqlirini almashturush qorali",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "uganoghli (adil)",
+  "license": "ISC"
+}
