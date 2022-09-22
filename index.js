@@ -34,7 +34,7 @@ function translate_from_or_to_uyghur(origin_text, elipbe, from_uyghur) {
     let result = from_uyghur ? origin_text : origin_text.toLowerCase();
     result = replacement_main_loop(origin_text, elipbe, from_uyghur);
     if (result[0] == "'" || result[0] == 'ъ') {
-        result = substring(1);
+        result = result.substring(1);
     }
     if (from_uyghur) {
         result = handle_upper_case(result, Object.values(elipbe.asas));
